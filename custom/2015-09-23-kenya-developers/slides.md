@@ -366,7 +366,3 @@ from research.amnh.org
 <img class="fullscreen-img" src="/presentations/img/maggie.jpg"/>
 
 # Thanks!
-
-===
-
-![Let's get this party started!](img/lets_get_this_party_started.gif)
