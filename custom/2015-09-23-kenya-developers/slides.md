@@ -1,4 +1,4 @@
-## Developers Workshop
+## Developers' Workshop
 ## Intro to Kenya OpenData APIs
 ![Socrata](img/snu-geek.png)
 ### Ori Pleban
