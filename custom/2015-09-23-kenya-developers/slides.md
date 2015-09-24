@@ -147,7 +147,7 @@ from research.amnh.org
 
 <p style='text-align: left; margin-left:50px;'><em>Where:</em></p>
 
-- <code><span class="greenery">$domain</span></code> is the publisher's domain (ex: <code>opendata.kenya.go.ke</code>)
+- <code><span class="greenery">$domain</span></code> is the publisher's domain (ex: <code>opendata.go.ke</code>)
 - <code><span class="golden">$identifier</span></code> is a dataset's unique ID (ex: <code>89zb-g69r</code>)
 - <code><span class="blushing-salmon">$ext</span></code> is <code>json</code>, <code>csv</code>, <code>xml</code>, or <code>rdf</code>
 
