@@ -1,6 +1,10 @@
 ## Developers Workshop
 ## Intro to Kenya OpenData APIs
 ![Socrata](img/snu-geek.png)
+### Ori Pleban
+### Web Developer, Socrata
+### ori.pleban@socrata.com
+
 ===
 
 <h1>Who the heck<br />are you?</h1>
