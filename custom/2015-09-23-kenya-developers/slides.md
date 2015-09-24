@@ -124,7 +124,7 @@ from research.amnh.org
 <br />
 ### [www.opendata.go.ke](https://www.opendata.go.ke/)
 <br />
-### [http://www.opendatanetwork.com/](http://www.opendatanetwork.com/)
+### [www.opendatanetwork.com](http://www.opendatanetwork.com/)
 
 ---
 
@@ -152,7 +152,7 @@ from research.amnh.org
 
 ## Example: Health Facilities
 
-<a target='blank' style='color:#FFF !important' href='https://data.nasa.gov/resource/gh4g-9sfh.json'><code style=''>https://<span class="greenery">opendata.go.ke</span>/resource/<span class="golden">89zb-g69r</span>.<span class="blushing-salmon">json</span></code></a>
+<a target='blank' style='color:#FFF !important' href='https://opendata.go.ke/resource/89zb-g69r.json'><code style=''>https://<span class="greenery">opendata.go.ke</span>/resource/<span class="golden">89zb-g69r</span>.<span class="blushing-salmon">json</span></code></a>
 
 <pre>
   <code data-trim contenteditable class="javascript">
@@ -207,33 +207,74 @@ from research.amnh.org
 
 ## Simple Filters
 
-<a target='blank' style='color:#FFF !important' href='https://data.nasa.gov/resource/gh4g-9sfh.json?name=Independence'><code style=''>https://<span class="greenery">opendata.go.ke</span>/resource/<span class="golden">89zb-g69r</span>.<span class="blushing-salmon">json</span>
-<br />?<span class="toy-store-blue">name</span>=<span style="color:MediumOrchid">AGA KHAN HOSPITAL</span></code></a>
+<a target='blank' style='color:#FFF !important' href='https://opendata.go.ke/resource/89zb-g69r.json?f_name=AGA KHAN HOSPITAL'><code style=''>https://<span class="greenery">opendata.go.ke</span>/resource/<span class="golden">89zb-g69r</span>.<span class="blushing-salmon">json</span>
+<br />?<span class="toy-store-blue">f_name</span>=<span style="color:MediumOrchid">AGA KHAN HOSPITAL</span></code></a>
 
 <pre><code data-trim contenteditable class="javascript">
 [
   {
-    "hmis": "1",
-    "f_name": "AGA KHAN HOSPITAL",
-    "location": "HIGHRIDGE",
-    "constituency": "KAMUKUNJI",
-    "agency": "PRIV",
-    "facility_type": "5",
-    "sub_location": "HIGHRIDGE",
-    "division": "WESTLANDS",
-    "geolocation": {
-    "needs_recoding": false,
-    "longitude": "36.822479",
-    "latitude": "-1.259263"
-    },
-    "facility_type_name": "Private Hospital",
-    "county": "NAIROBI",
-    "facility_number": "298",
-    "province": "NAIROBI",
-    "district": "NAIROBI",
-    "spatial_reference_method": "WAYUMBA"
+  "hmis": "694",
+  "f_name": "AGA KHAN HOSPITAL",
+  "location": "GANJONI",
+  "constituency": "KISAUNI",
+  "agency": "PRIV",
+  "facility_type": "5",
+  "sub_location": "KIZINGO(MOMBASA)",
+  "division": "ISLAND",
+  "geolocation": {
+  "needs_recoding": false,
+  "longitude": "39.676203",
+  "latitude": "-4.070507"
+  },
+  "facility_type_name": "Private Hospital",
+  "county": "MOMBASA",
+  "facility_number": "126",
+  "province": "COAST",
+  "district": "MOMBASA",
+  "spatial_reference_method": "DSA/DFH(MOH)-UNFPA REPORT"
+  },
+  {
+  "hmis": "1",
+  "f_name": "AGA KHAN HOSPITAL",
+  "location": "HIGHRIDGE",
+  "constituency": "KAMUKUNJI",
+  "agency": "PRIV",
+  "facility_type": "5",
+  "sub_location": "HIGHRIDGE",
+  "division": "WESTLANDS",
+  "geolocation": {
+  "needs_recoding": false,
+  "longitude": "36.822479",
+  "latitude": "-1.259263"
+  },
+  "facility_type_name": "Private Hospital",
+  "county": "NAIROBI",
+  "facility_number": "298",
+  "province": "NAIROBI",
+  "district": "NAIROBI",
+  "spatial_reference_method": "WAYUMBA"
+  },
+  {
+  "hmis": "1326",
+  "f_name": "AGA KHAN HOSPITAL",
+  "location": "TOWNSHIP",
+  "constituency": "NYAKACH",
+  "agency": "PRIV",
+  "facility_type": "5",
+  "sub_location": "NORTHERN",
+  "division": "WINAM",
+  "geolocation": {
+  "needs_recoding": false,
+  "longitude": "34.7629",
+  "latitude": "-0.097193"
+  },
+  "facility_type_name": "Private Hospital",
+  "county": "KISUMU",
+  "facility_number": "70",
+  "province": "NYANZA",
+  "district": "KISUMU",
+  "spatial_reference_method": "DDP"
   }
-  ...
 ]
 </code></pre>
 
@@ -241,8 +282,7 @@ from research.amnh.org
 
 ## SoQL Queries
 
-<code>http://opendata.go.ke/resource/u77w-ifgt.json?<span class="toy-store-blue">$where</span>=<span class="golden">no_of_households_with_electricty &lt; 1000 AND no_of_househols_with_fuel_wood &gt; 500</span>
-</code>
+<a href="http://opendata.go.ke/resource/u77w-ifgt.json?$where=no_of_households_with_electricity < 1000 AND no_of_households_with_fuel_wood > 500"><code>http://opendata.go.ke/resource/u77w-ifgt.json?<span class="toy-store-blue">$where</span>=<span class="golden">no_of_households_with_electricity &lt; 1000 AND no_of_households_with_fuel_wood &gt; 500</span></code></a>
 
 <small style="padding-top: 5em">For more details see <a href="http://dev.socrata.com">dev.socrata.com</a></small>
 
@@ -315,7 +355,7 @@ from research.amnh.org
 ---
 ## Paging Through Data
 
-<a target='blank' style='color:#FFF !important' href='https://opendata.go.ke/resource/s63d-ajgd.json?$limit=50&$offset=100'><code style=''>https://<span class="greenery">data.nasa.gov</span>/resource/<span class="golden">s63d-ajgd</span>.<span class="blushing-salmon">json</span>
+<a target='blank' style='color:#FFF !important' href='https://opendata.go.ke/resource/s63d-ajgd.json?$limit=50&$offset=100'><code style=''>https://<span class="greenery">opendata.go.ke</span>/resource/<span class="golden">s63d-ajgd</span>.<span class="blushing-salmon">json</span>
 <br />?<span class="toy-store-blue">$limit</span>=<span style="color:MediumOrchid">50</span>&<span class="toy-store-blue">$offset</span>=<span style="color:MediumOrchid">100</span></code></a>
 
 ---
