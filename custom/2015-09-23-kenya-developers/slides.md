@@ -290,8 +290,7 @@ from research.amnh.org
 
 ## Aggregating Data
 
-<a target='blank' style='color:#FFF !important' href="https://opendata.go.ke/resource/q2r9-tvwf.json?$select=year_text,sum(no_of_visitors_to_kenya)&$where=arrival_or_departure='arrivals'&$group=year_text&$order=sum_no_of_visitors_to_kenya+desc"><code style=''>https://<span class="greenery">data.nasa.gov</span>/resource/<span class="golden">gh4g-9sfh</span>.<span class="blushing-salmon">json</span>
-<br />?<span class="toy-store-blue">$select</span>=<span style="color:MediumOrchid">year_text,sum(no_of_visitors_to_kenya)</span>&<span class="greenery">$where</span>=<span class="golden">arrival_or_departure='arrivals'</span>&<span class="toy-store-blue">$group</span>=<span style="color:MediumOrchid">year_text</span><br />&<span class="toy-store-blue">$order</span>=<span style="color:MediumOrchid">sum_no_visitors_to_kenya DESC</span></code></a>
+<a target='blank' style='color:#FFF !important' href="https://opendata.go.ke/resource/q2r9-tvwf.json?$select=year_text,sum(no_of_visitors_to_kenya)&$where=arrival_or_departure='arrivals'&$group=year_text&$order=sum_no_of_visitors_to_kenya+desc"><code style=''>https://<span class="greenery">data.nasa.gov</span>/resource/<span class="golden">gh4g-9sfh</span>.<span class="blushing-salmon">json</span>?<br/><span class="toy-store-blue">$select</span>=<span style="color:MediumOrchid">year_text,sum(no_of_visitors_to_kenya)</span>&<span class="greenery"><br />$where</span>=<span class="golden">arrival_or_departure='arrivals'</span><br />&<span class="toy-store-blue">$group</span>=<span style="color:MediumOrchid">year_text</span><br />&<span class="toy-store-blue">$order</span>=<span style="color:MediumOrchid">sum_no_visitors_to_kenya DESC</span></code></a>
 
 <pre><code data-trim contenteditable class="javascript">
   [
