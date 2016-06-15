@@ -383,7 +383,9 @@ from research.amnh.org
 
 ---
 
-  <table class="table table-striped table-hover">
+## SoQL Clauses
+
+<table class="table table-striped table-hover">
   <thead>
     <tr>
       <th>Parameter</th>
@@ -454,7 +456,7 @@ from research.amnh.org
 
 ## Aggregating Data
 
-<a target='blank' style='color:#FFF !important' href="https://udot.data.socrata.com/resource/efb7-dcwk.json?$select=project_manager,sum(project_value) AS sum_of_project_values&$group=project_manager&$order=sum_of_project_values+desc"><code style=''>https://<span class="greenery">udot.data.socrata.com</span>/resource/<span class="golden">efb7-dcwk</span>.<span class="blushing-salmon">json</span>?<br/><span class="toy-store-blue">$select</span>=<span style="color:MediumOrchid">project_manager,sum(project_value) AS sum_of_project_value</span>&<span class="greenery"></span><br />&<span class="toy-store-blue">$group</span>=<span style="color:MediumOrchid">project_manager</span><br />&<span class="toy-store-blue">$order</span>=<span style="color:MediumOrchid">sum_of_project_value DESC</span></code></a>
+<a target='blank' style='color:#FFF !important' href="https://udot.data.socrata.com/resource/efb7-dcwk.json?$select=project_manager,sum(project_value) AS sum_of_project_values&$group=project_manager&$order=sum_of_project_values+desc"><code style=''>https://<span class="greenery">udot.data.socrata.com</span>/resource/<span class="golden">efb7-dcwk</span>.<span class="blushing-salmon">json</span>?<span class="toy-store-blue">$select</span>=<span style="color:MediumOrchid">project_manager,sum(project_value) AS sum_of_project_value</span>&<span class="toy-store-blue">$group</span>=<span style="color:MediumOrchid">project_manager</span>&<span class="toy-store-blue">$order</span>=<span style="color:MediumOrchid">sum_of_project_value DESC</span></code></a>
 
 <pre><code data-trim contenteditable class="javascript">
   [
