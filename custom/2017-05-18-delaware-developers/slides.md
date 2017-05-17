@@ -2,7 +2,7 @@
 ## Socrata OpenData APIs
 ![Socrata](img/grant-socrata.png)
 ### Ori Pleban
-### Web Developer, Socrata
+### Solutions Architect, Socrata
 ### ori.pleban@socrata.com
 
 ===
@@ -126,7 +126,7 @@ from research.amnh.org
 
 ## Finding Data
 <br />
-### [udot.data.socrata.com](https://udot.data.socrata.com/)
+### [data.delaware.gov](https://data.delaware.gov/)
 <br />
 ### [www.opendatanetwork.com](https://www.opendatanetwork.com/)
 
@@ -147,7 +147,7 @@ from research.amnh.org
 
 <p style='text-align: left; margin-left:50px;'><em>Where:</em></p>
 
-- <code><span class="greenery">$domain</span></code> is the publisher's domain (ex: <code>udot.data.socrata.com</code>)
+- <code><span class="greenery">$domain</span></code> is the publisher's domain (ex: <code>data.delaware.gov</code>)
 - <code><span class="golden">$identifier</span></code> is a dataset's unique ID (ex: <code>efb7-dcwk</code>)
 - <code><span class="blushing-salmon">$ext</span></code> is <code>json</code>, <code>csv</code>, <code>xml</code>, or <code>rdf</code>
 
@@ -533,7 +533,7 @@ from research.amnh.org
 
 ## Application Tokens
 
-1. Register at [https://data.delaware.gov/profile/app_tokens](https://udot.data.socrata.com/profile/app_tokens)
+1. Register at [https://data.delaware.gov/profile/app_tokens](https://data.delaware.gov/profile/app_tokens)
 2. Include as:
   - <code><span class="toy-store-blue">X-App-Token</span>: <span class="golden">$token</span></code> HTTP Header or ...
   - The <code><span class="toy-store-blue">$$app_token</span>=<span class="golden">$token</span></code> URL parameter
