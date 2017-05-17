@@ -1,6 +1,6 @@
 ## Delaware Developers' Workshop
 ## Socrata OpenData APIs
-![Socrata](img/grant-socrata.png)
+![Socrata](img/snu-geek.png)
 ### Ori Pleban
 ### Solutions Architect, Socrata
 ### ori.pleban@socrata.com
