@@ -8,7 +8,7 @@
 ===
 
 <h1>Who the heck<br />are you?</h1>
-![Socrata](img/white_orange_logo.png)
+![Socrata](img/White_orange_logo.png)
 
 ---
 
