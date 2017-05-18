@@ -134,7 +134,7 @@ from research.amnh.org
 
 ### In the Data Catalog
 
-![API Sidebar](img/udot.gif)
+![API Sidebar](img/delaware.gif)
 
 ---
 
