@@ -464,7 +464,7 @@ from research.amnh.org
 ---
 
 ## Geospatial Queries
-  <a target='blank' style='color:#FFF !important' href='https://data.delaware.gov/resource/8u9e-kp5g.json?$where=within_circle(geocoded_location,36.78,-119.93,100000)'><code style=''>https://<span class="greenery">data.delaware.gov</span>/resource/<span class="golden">8u9e-kp5g.json</span>.<span class="blushing-salmon">json</span>
+  <a target='blank' style='color:#FFF !important' href='https://data.delaware.gov/resource/8u9e-kp5g.json?$where=within_circle(geocoded_location,36.78,-119.93,100000)'><code style=''>https://<span class="greenery">data.delaware.gov</span>/resource/<span class="golden">8u9e-kp5g</span>.<span class="blushing-salmon">json</span>
   <br />?<span class="toy-store-blue">$where=</span><span style="color:MediumOrchid">within_circle(geocoded_location,36.78,-119.93,100000)</span></code></a>
 
   <pre><code data-trim contenteditable class="javascript">
