@@ -3,4 +3,4 @@
 	url = https://github.com/hakimel/reveal.js.git
 [submodule "lib/revealjs-fullscreen-img"]
 	path = lib/revealjs-fullscreen-img
-	url = https://github.com/chrismetcalf/reveal.js-fullscreen-img.git
+	url = https://github.com/opleban/reveal.js-fullscreen-img.git
