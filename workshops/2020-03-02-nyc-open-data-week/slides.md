@@ -8,7 +8,7 @@
 ===
 
 <h1>What the heck<br />is Socrata?</h1>
-![Tyler](img/tyler.jpg)
+![Tyler](img/tyler-transparent.png)
 
 ---
 
