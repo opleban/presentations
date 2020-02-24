@@ -8,7 +8,7 @@
 ===
 
 <h1>What the heck<br />is Socrata?</h1>
-![Socrata](img/White_orange_logo.png)
+![Tyler](img/tyler.jpg)
 
 ---
 
@@ -132,9 +132,14 @@ from research.amnh.org
 
 ---
 
-### In the Data Catalog
+### Open Data NYC
 
-![API Sidebar](img/pa.png)
+![Open Data NYC Home Page](nyc_data.png)
+
+---
+### In the Catalog
+
+![Open Data NYC Catalog](nyc_catalog.png)
 
 ---
 
@@ -147,8 +152,8 @@ from research.amnh.org
 
 <p style='text-align: left; margin-left:50px;'><em>Where:</em></p>
 
-- <code><span class="greenery">$domain</span></code> is the publisher's domain (ex: <code>data.pa.gov</code>)
-- <code><span class="golden">$identifier</span></code> is a dataset's unique ID (ex: <code>ug4h-nsj9</code>)
+- <code><span class="greenery">$domain</span></code> is the publisher's domain (ex: <code>data.cityofnewyork.us</code>)
+- <code><span class="golden">$identifier</span></code> is a dataset's unique ID (ex: <code>tg4x-b46p</code>)
 - <code><span class="blushing-salmon">$ext</span></code> is <code>json</code>, <code>csv</code>, <code>xml</code>, or <code>rdf</code>
 
 
@@ -324,7 +329,6 @@ from research.amnh.org
 ---
 
 ## SoQL Queries
-// https://data.cityofnewyork.us/resource/tg4x-b46p.json?$WHERE=data_trunc_y(startdatetime) >= '2019-01-01' AND borough = "Queens"
 <a href="https://data.cityofnewyork.us/resource/tg4x-b46p.json?$select=eventid,category, subcategoryname,borough&$where=startdatetime >='2019-01-01' AND borough ='Queens'"><code>https://data.cityofnewyork.us/resource/tg4x-b46p.json?<span class="toy-store-blue">$WHERE</span>=<span class="golden">startdatetime &gte; '2019-01-01' AND borough ='Queens'</span></code></a>
 
 <pre><code data-trim contenteditable class="javascript">
@@ -481,48 +485,124 @@ from research.amnh.org
 ---
 
 ## Geospatial Queries
-  <a target='blank' style='color:#FFF !important' href='https://data.pa.gov/resource/fnrp-gye7.json?$where=within_circle(location_1,40.2642873,-76.8861474,1000)'><code style=''>https://<span class="greenery">data.pa.gov</span>/resource/<span class="golden">fnrp-gye7</span>.<span class="blushing-salmon">json</span>
-  <br />?<span class="toy-store-blue">$where=</span><span style="color:MediumOrchid">within_circle(location_1,40.2642873,-76.8861474,1000)</span></code></a>
+  <a target='blank' style='color:#FFF !important' href='data.cityofnewyork.us/resource/x3ar-yjn2?$where=within_circle(the_geom,40.662481, -73.969150,1000)'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span>
+  <br />?<span class="toy-store-blue">$where=</span><span style="color:MediumOrchid">within_circle(the_geom,40.662, -73.969,1000)</span></code></a>
 
   <pre><code data-trim contenteditable class="javascript">
-  [
-    {
-      "county_description": "DAUPHIN (6)",
-      "county_key": "22",
-      "court_disposition": "Guilty",
-      "determination_year": "2015",
-      "dog_info_age": "3 years",
-      "dog_info_breed": "American Bulldog",
-      "dog_info_predator": "Dog",
-      "file_date": "2015-10-16T00:00:00.000",
-      "hearing_date": "2015-11-23T00:00:00.000",
-      "location_1": {
-      "type": "Point",
+  [{
+    "bin": "3025689",
+    "objectid": "15",
+    "the_geom": {
+      "type": "MultiPolygon",
       "coordinates": [
-        -76.890435,
-        40.270365
+        [
+          [
+            [
+              -73.97605642393026,
+              40.666638336470896
+            ],
+            [
+              -73.97615023072676,
+              40.66652645245729
+            ],
+            [
+              -73.97617037938288,
+              40.666502420964584
+            ],
+            [
+              -73.97617274563603,
+              40.666499599238065
+            ],
+            [
+              -73.97617574306379,
+              40.66650105689349
+            ],
+            [
+              -73.97620225995925,
+              40.666513946962624
+            ],...
+          ]
+        ]
       ]
     },
-      "location_1_address": "268 Calder St",
-      "location_1_city": "Harrisburg",
-      "location_1_state": "PA",
-      "location_1_zip": "17102",
-      "owner_address": "268 Calder St",
-      "owner_city": "Harrisburg",
-      "owner_county": "DAUPHIN (6)",
-      "owner_first_name": "Tyson",
-      "owner_last_name": "Stokes",
-      "owner_state": "PA",
-      "owner_zip": "17102",
-      "status_description": "City Limits"
-    }
-  ]
+    "bbl": "3010870032",
+    "doitt_id": "302860",
+    "height_roo": "45.32",
+    "ground_ele": "155",
+    "borough": "BK",
+    "block": "1087",
+    "lot": "32",
+    "zip_code": "11215",
+    "address": "618 6 STREET",
+    "owner_name": "DONALD KNUTSON",
+    "num_floors": "3",
+    "year_built": "1920",
+    "year_alter_1": "0",
+    "year_alter_2": "0",
+    "des_addres": "618 6th Street"
+  },
+  {
+    "bin": "3025647",
+    "objectid": "26",
+    "the_geom": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              -73.97542926349496,
+              40.66681862437225
+            ],
+            [
+              -73.97537223783446,
+              40.666791177063786
+            ],
+            [
+              -73.97528024344004,
+              40.66674689878175
+            ],
+            [
+              -73.97532060320022,
+              40.666698279593234
+            ],
+            [
+              -73.97542187598211,
+              40.66674702368282
+            ],
+            [
+              -73.97556113531485,
+              40.66681405082677
+            ],
+            [
+              -73.9755644659575,
+              40.666825976164596
+            ], ...
+          ]
+        ]
+      ]
+    },
+    "bbl": "3010850043",
+    "doitt_id": "348423",
+    "height_roo": "57.05",
+    "ground_ele": "156",
+    "borough": "BK",
+    "block": "1085",
+    "lot": "43",
+    "zip_code": "11215",
+    "address": "104 PROSPECT PARK WEST",
+    "owner_name": "KINDIG, ERINN",
+    "num_floors": "4",
+    "year_built": "1901",
+    "year_alter_1": "0",
+    "year_alter_2": "0",
+    "des_addres": "104 Prospect Park West"
+  }, ...]
   </code></pre>
 
 ---
 ## Paging Through Data
 
-<a target='_blank' style='color:#FFF !important' href='https://data.pa.gov/resource/fnrp-gye7.json?$limit=50&$offset=100'><code style=''>https://<span class="greenery">data.pa.gov</span>/resource/<span class="golden">fnrp-gye7</span>.<span class="blushing-salmon">json</span>
+<a target='_blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/tg4x-b46p.json?$limit=50&$offset=100'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">tg4x-b46p</span>.<span class="blushing-salmon">json</span>
 <br />?<span class="toy-store-blue">$limit</span>=<span style="color:MediumOrchid">50</span>&<span class="toy-store-blue">$offset</span>=<span style="color:MediumOrchid">100</span></code></a>
 
 ---
@@ -535,7 +615,7 @@ from research.amnh.org
 
 ## Application Tokens
 
-1. Register at [https://data.pa.gov/profile/app_tokens](https://data.pa.gov/profile/app_tokens)
+1. Register at [https:/data.cityofnewyork.us/profile/app_tokens](https://data.cityofnewyork.us/profile/app_tokens)
 2. Include as:
   - <code><span class="toy-store-blue">X-App-Token</span>: <span class="golden">$token</span></code> HTTP Header or ...
   - The <code><span class="toy-store-blue">$$app_token</span>=<span class="golden">$token</span></code> URL parameter
