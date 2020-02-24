@@ -134,12 +134,12 @@ from research.amnh.org
 
 ### Open Data NYC
 
-![Open Data NYC Home Page](nyc_data.png)
+![Open Data NYC Home Page](img/nyc_data.png)
 
 ---
 ### In the Catalog
 
-![Open Data NYC Catalog](nyc_catalog.png)
+![Open Data NYC Catalog](img/nyc_catalog.png)
 
 ---
 
