@@ -1,6 +1,6 @@
 ## NYC Open Data Week
 ## Socrata OpenData APIs
-![Socrata](img/snu-geek.png)
+![Socrata](img/ny-snu.png)
 ### Ori Pleban
 ### Data Integration Architect
 ### ori.pleban@tylertech.com
