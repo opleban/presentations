@@ -329,7 +329,7 @@ from research.amnh.org
 ---
 
 ## SoQL Queries
-<a href="https://data.cityofnewyork.us/resource/tg4x-b46p.json?$select=eventid,category, subcategoryname,borough&$where=startdatetime >='2019-01-01' AND borough ='Queens'"><code>https://data.cityofnewyork.us/resource/tg4x-b46p.json?<span class="toy-store-blue">$WHERE</span>=<span class="golden">startdatetime &gte; '2019-01-01' AND borough ='Queens'</span></code></a>
+<a href="https://data.cityofnewyork.us/resource/tg4x-b46p.json?$select=eventid,category, subcategoryname,borough&$where=startdatetime >='2019-01-01' AND borough ='Queens'"><code>https://data.cityofnewyork.us/resource/tg4x-b46p.json?<span class="toy-store-blue">$WHERE</span>=<span class="golden">startdatetime &ge; '2019-01-01' AND borough ='Queens'</span></code></a>
 
 <pre><code data-trim contenteditable class="javascript">
   [
@@ -453,7 +453,7 @@ from research.amnh.org
     <span class="toy-store-blue">$SELECT</span>=
     <span class="golden">borough, count(*) as number_of_permits</span>
     <span class="toy-store-blue">$WHERE</span>=
-    <span class="golden">startdatetime &gte; '2019-01-01'</span>
+    <span class="golden">startdatetime &ge; '2019-01-01'</span>
   </code>
 </a>
 
@@ -485,7 +485,8 @@ from research.amnh.org
 ---
 
 ## Geospatial Queries
-  <a target='blank' style='color:#FFF !important' href='data.cityofnewyork.us/resource/x3ar-yjn2?$where=within_circle(the_geom,40.662481, -73.969150,1000)'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span>
+  Individual Landmark and Historic District Dataset 
+  <a target='blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/x3ar-yjn2?$where=within_circle(the_geom,40.662481, -73.969150,1000)'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span>
   <br />?<span class="toy-store-blue">$where=</span><span style="color:MediumOrchid">within_circle(the_geom,40.662, -73.969,1000)</span></code></a>
 
   <pre><code data-trim contenteditable class="javascript">
