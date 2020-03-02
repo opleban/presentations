@@ -159,93 +159,182 @@ from research.amnh.org
 
 ---
 
-## Example: NYC Film Permits
+## Example: LPC Individual Landmark and Historic District Building Database
 
-<a target='blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/tg4x-b46p.json'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">tg4x-b46p</span>.<span class="blushing-salmon">json</span></code></a>
+<a target='blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/x3ar-yjn2.json'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span></code></a>
 
 <pre>
   <code data-trim contenteditable class="javascript">
 [
-  {
-    "eventid": "519983",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T06:00:00.000",
-    "enddatetime": "2019-11-25T10:00:00.000",
-    "enteredon": "2019-11-22T15:13:39.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "WEST   48 STREET between 6 AVENUE and 7 AVENUE",
-    "borough": "Manhattan",
-    "communityboard_s": "5",
-    "policeprecinct_s": "18",
-    "category": "Television",
-    "subcategoryname": "News",
-    "country": "United States of America",
-    "zipcode_s": "10036, 10105"
-  },
-  {
-    "eventid": "519948",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T06:00:00.000",
-    "enddatetime": "2019-11-25T20:30:00.000",
-    "enteredon": "2019-11-22T13:55:42.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "EAST   71 STREET between MADISON AVENUE and PARK AVENUE",
-    "borough": "Manhattan",
-    "communityboard_s": "64, 8",
-    "policeprecinct_s": "19, 22",
-    "category": "Film",
-    "subcategoryname": "Feature",
-    "country": "United States of America",
-    "zipcode_s": "10021, 10023"
-  },
-  {
-    "eventid": "519941",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T07:00:00.000",
-    "enddatetime": "2019-11-25T21:00:00.000",
-    "enteredon": "2019-11-22T13:40:08.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "BROADWAY between WEST   75 STREET and WEST   78 STREET,  BROADWAY between WEST   75 STREET and WEST   78 STREET,  5 AVENUE between EAST   79 STREET and EAST   80 STREET",
-    "borough": "Manhattan",
-    "communityboard_s": "64, 7, 8",
-    "policeprecinct_s": "19, 20, 22",
-    "category": "Film",
-    "subcategoryname": "Feature",
-    "country": "United States of America",
-    "zipcode_s": "10023, 10024, 10075"
-  },
-  {
-    "eventid": "519916",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T06:00:00.000",
-    "enddatetime": "2019-11-25T22:00:00.000",
-    "enteredon": "2019-11-22T12:41:05.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "ATLANTIC AVENUE between COURT STREET and HENRY STREET,  COURT STREET between MONTAGUE STREET and JORALEMON STREET,  WASHINGTON PARK between MYRTLE AVENUE and DEKALB AVENUE,  DEKALB AVENUE between ASHLAND PLACE and WASHINGTON PARK,  ADELPHI STREET between GREENE AVENUE and LAFAYETTE AVENUE,  LAFAYETTE AVENUE between CARLTON AVENUE and CUMBERLAND STREET,  LAFAYETTE AVENUE between CARLTON AVENUE and ADELPHI STREET",
-    "borough": "Brooklyn",
-    "communityboard_s": "2, 6",
-    "policeprecinct_s": "76, 84, 88",
-    "category": "Television",
-    "subcategoryname": "Episodic series",
-    "country": "United States of America",
-    "zipcode_s": "11201, 11205, 11217, 11238"
-  },
-  {
-    "eventid": "519904",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-23T06:00:00.000",
-    "enddatetime": "2019-11-23T20:00:00.000",
-    "enteredon": "2019-11-22T11:57:36.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "BARROW STREET between BEDFORD STREET and 7 AVENUE SOUTH,  7 AVENUE SOUTH between BARROW STREET and COMMERCE STREET",
-    "borough": "Manhattan",
-    "communityboard_s": "2",
-    "policeprecinct_s": "6",
-    "category": "Film",
-    "subcategoryname": "Feature",
-    "country": "United States of America",
-    "zipcode_s": "10014"
-  },... and so on
+  [
+    {
+        "bin": "3368915",
+        "objectid": "1",
+        "the_geom": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -73.96005569077911,
+                            40.630963850647355
+                        ],
+                        [
+                            -73.9601274248611,
+                            40.63095772769943
+                        ],
+                        [
+                            -73.96013489308709,
+                            40.631008513285295
+                        ],
+                        [
+                            -73.96006315895082,
+                            40.6310146371383
+                        ],
+                        [
+                            -73.96005569077911,
+                            40.630963850647355
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "bbl": "3066920018",
+        "doitt_id": "869806",
+        "height_roo": "15.82",
+        "ground_ele": "34",
+        "borough": "BK",
+        "block": "6692",
+        "lot": "18",
+        "zip_code": "11230",
+        "address": "803 EAST 17 STREET",
+        "owner_name": "HERRING, VINCENT",
+        "num_floors": "2.75",
+        "year_built": "1901",
+        "year_alter_1": "0",
+        "year_alter_2": "0",
+        "des_addres": "803 East 17th Street",
+        "circa": "1",
+        "date_low": "1912",
+        "date_high": "1912",
+        "date_combo": "c. 1912",
+        "alt_date_1": "1958",
+        "alt_date_2": "0",
+        "arch_build": "Seth Cutting (or) Adelsohn & Feinberg",
+        "own_devel": "Stephen Norman",
+        "alt_arch_1": "Donald A. Brown",
+        "alt_arch_2": "0",
+        "altered": "1",
+        "style_prim": "Not determined",
+        "style_sec": "0",
+        "style_oth": "0",
+        "non_contrib": "0",
+        "mat_prim": "Wood Frame",
+        "mat_sec": "Asphalt Shingles",
+        "mat_third": "0",
+        "mat_four": "0",
+        "mat_other": "0",
+        "use_orig": "Outbuilding, garage",
+        "use_other": "0",
+        "build_type": "Garage",
+        "build_oth": "0",
+        "build_nme": "0",
+        "notes": "0",
+        "new_const": "0",
+        "hist_dist": "Fiske Terrace-Midwood Park Historic District",
+        "era": "1901 - 1925",
+        "lm_orig": "0",
+        "lm_new": "0",
+        "hd_flag": "1",
+        "il_flag": "0",
+        "bbl_2": "3066920018",
+        "shape_leng": "77.3082905818",
+        "shape_area": "373.033620654"
+    },
+    {
+        "bin": "3384822",
+        "objectid": "2",
+        "the_geom": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -73.95996028425891,
+                            40.63088240239434
+                        ],
+                        [
+                            -73.96002859598848,
+                            40.63087498787182
+                        ],
+                        [
+                            -73.96003493598042,
+                            40.63090889283422
+                        ],
+                        [
+                            -73.95996662421683,
+                            40.630916307360515
+                        ],
+                        [
+                            -73.95996028425891,
+                            40.63088240239434
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "bbl": "3066920074",
+        "doitt_id": "958541",
+        "height_roo": "16.24",
+        "ground_ele": "34",
+        "borough": "BK",
+        "block": "6692",
+        "lot": "74",
+        "zip_code": "11230",
+        "address": "814 EAST 18 STREET",
+        "owner_name": "ADLER, BRUCE",
+        "num_floors": "2.5",
+        "year_built": "1925",
+        "year_alter_1": "0",
+        "year_alter_2": "0",
+        "des_addres": "814 East 18th Street (aka 812-814 East 18th Street)",
+        "circa": "0",
+        "date_low": "0",
+        "date_high": "0",
+        "date_combo": "Not determined",
+        "alt_date_1": "0",
+        "alt_date_2": "0",
+        "arch_build": "Not determined",
+        "own_devel": "Not determined",
+        "alt_arch_1": "0",
+        "alt_arch_2": "0",
+        "altered": "0",
+        "style_prim": "Not determined",
+        "style_sec": "0",
+        "style_oth": "0",
+        "non_contrib": "0",
+        "mat_prim": "Brick",
+        "mat_sec": "0",
+        "mat_third": "0",
+        "mat_four": "0",
+        "mat_other": "0",
+        "use_orig": "Outbuilding, garage",
+        "use_other": "0",
+        "build_type": "Garage",
+        "build_oth": "0",
+        "build_nme": "0",
+        "notes": "Shared garage with 818 East 18th Street.",
+        "new_const": "0",
+        "hist_dist": "Fiske Terrace-Midwood Park Historic District",
+        "era": "Not determined",
+        "lm_orig": "0",
+        "lm_new": "0",
+        "hd_flag": "1",
+        "il_flag": "0",
+        "bbl_2": "3066920074",
+        "shape_leng": "63.2596692328",
+        "shape_area": "238.971308005"
+    },... and so on
 ]
   </code>
 </pre>
@@ -254,122 +343,179 @@ from research.amnh.org
 
 ## Simple Filters
 
-<a target='blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/tg4x-b46p.json?category=Television'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">tg4x-b46p</span>.<span class="blushing-salmon">json</span>
-<br />?<span class="toy-store-blue">category</span>=<span style="color:MediumOrchid">Television</span></code></a>
+<a target='blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/x3ar-yjn2.json?style_prim=Italianate'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span>
+<br />?<span class="toy-store-blue">category</span>=<span style="color:MediumOrchid">Italianate</span></code></a>
 
 <pre><code data-trim contenteditable class="javascript">
 [
-  {
-    "eventid": "519636",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T09:00:00.000",
-    "enddatetime": "2019-11-26T00:00:00.000",
-    "enteredon": "2019-11-21T11:20:51.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "34 AVENUE between 36 STREET and 35 STREET,  35 STREET between 34 AVENUE and 35 AVENUE,  35 STREET between ASTORIA BOULEVARD and 28 AVENUE,  28 AVENUE between 35 STREET and 34 STREET,  35 STREET between 28 AVENUE and 30 AVENUE,  28 AVENUE between 33 STREET and 34 STREET",
-    "borough": "Queens",
-    "communityboard_s": "1",
-    "policeprecinct_s": "114",
-    "category": "Television",
-    "subcategoryname": "Cable-episodic",
-    "country": "United States of America",
-    "zipcode_s": "11103, 11106"
-  },
-  {
-    "eventid": "516485",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T07:00:00.000",
-    "enddatetime": "2019-11-25T23:00:00.000",
-    "enteredon": "2019-11-12T17:12:27.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "MOSHOLU AVENUE between WEST  256 STREET and WEST  254 STREET,  RIVERDALE AVENUE between WEST  256 STREET and WEST  258 STREET,  RIVERDALE AVENUE between WEST  258 STREET and WEST  260 STREET",
-    "borough": "Bronx",
-    "communityboard_s": "8",
-    "policeprecinct_s": "50",
-    "category": "Television",
-    "subcategoryname": "Episodic series",
-    "country": "United States of America",
-    "zipcode_s": "10471"
-  },
-  {
-    "eventid": "519527",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T06:00:00.000",
-    "enddatetime": "2019-11-26T00:00:00.000",
-    "enteredon": "2019-11-20T16:43:16.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "PARK AVENUE SOUTH between EAST   21 STREET and EAST   18 STREET,  EAST   20 STREET between PARK AVENUE SOUTH and 3 AVENUE,  EAST   19 STREET between PARK AVENUE SOUTH and 3 AVENUE,  IRVING PLACE between EAST   20 STREET and EAST   17 STREET",
-    "borough": "Manhattan",
-    "communityboard_s": "5, 6",
-    "policeprecinct_s": "13",
-    "category": "Television",
-    "subcategoryname": "Episodic series",
-    "country": "United States of America",
-    "zipcode_s": "10003, 10010"
-  },
-  {
-    "eventid": "519453",
-    "eventtype": "Shooting Permit",
-    "startdatetime": "2019-11-25T06:00:00.000",
-    "enddatetime": "2019-11-25T22:00:00.000",
-    "enteredon": "2019-11-20T14:34:41.000",
-    "eventagency": "Mayor's Office of Film, Theatre & Broadcasting",
-    "parkingheld": "PARK AVENUE between EAST   70 STREET and EAST   71 STREET,  PARK AVENUE between EAST   70 STREET and EAST   69 STREET,  EAST   69 STREET between PARK AVENUE and MADISON AVENUE,  PARK AVENUE between EAST   69 STREET and EAST   68 STREET,  PARK AVENUE between EAST   68 STREET and EAST   67 STREET,  EAST   68 STREET between PARK AVENUE and MADISON AVENUE,  MADISON AVENUE between EAST   67 STREET and EAST   68 STREET,  MADISON AVENUE between EAST   68 STREET and EAST   69 STREET,  MADISON AVENUE between EAST   69 STREET and EAST   70 STREET,  37 STREET between 43 AVENUE and SKILLMAN AVENUE,  38 STREET between 43 AVENUE and SKILLMAN AVENUE,  43 AVENUE between 39 STREET and 37 STREET,  37 STREET between QUEENS BOULEVARD and 43 AVENUE,  QUEENS BOULEVARD between 37 STREET and 38 STREET",
-    "borough": "Manhattan",
-    "communityboard_s": "2, 8",
-    "policeprecinct_s": "108, 19",
-    "category": "Television",
-    "subcategoryname": "Episodic series",
-    "country": "United States of America",
-    "zipcode_s": "10021, 10065, 11101"
-  }, ... // and so on
+    {
+        "bin": "3055294",
+        "objectid": "18",
+        "the_geom": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -73.96820179856762,
+                            40.68894483760301
+                        ],
+                        [
+                            -73.96824591342943,
+                            40.688939827621134
+                        ],
+                        [
+                            -73.96836709675894,
+                            40.68892606693165
+                        ],
+                        ...
+                    ]
+                ]
+            ]
+        },
+        "bbl": "3019290031",
+        "doitt_id": "426989",
+        "height_roo": "41.32",
+        "ground_ele": "93",
+        "borough": "BK",
+        "block": "1929",
+        "lot": "31",
+        "zip_code": "11205",
+        "address": "306 CLINTON AVENUE",
+        "owner_name": "QUELLE, GEOFFREY",
+        "num_floors": "3",
+        "year_built": "1899",
+        "year_alter_1": "2005",
+        "year_alter_2": "0",
+        "des_addres": "306 Clinton Avenue",
+        ...
+    },
+    {
+        "bin": "3058486",
+        "objectid": "22",
+        "the_geom": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -73.97196672828584,
+                            40.69026295754327
+                        ],
+                        [
+                            -73.97196880699245,
+                            40.69026272391617
+                        ],...
+                    ]
+                ]
+            ]
+        },
+        "bbl": "3020900011",
+        "doitt_id": "84178",
+        "height_roo": "48.04",
+        "ground_ele": "66",
+        "borough": "BK",
+        "block": "2090",
+        "lot": "11",
+        "zip_code": "11205",
+        "address": "249 CARLTON AVENUE",
+        "owner_name": "GEHRING, KATHRINE A",
+        "num_floors": "4",
+        "year_built": "1930",
+        "year_alter_1": "2009",
+        "year_alter_2": "0",
+        "des_addres": "249 Carlton Avenue",
+        ...
+
+    },
+    {
+        "bin": "3003319",
+        "objectid": "33",
+        "the_geom": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -73.99864515073207,
+                            40.687764307484464
+                        ],
+                        [
+                            -73.99867459780505,
+                            40.68771259403958
+                        ],...
+                    ]
+                ]
+            ]
+        },
+        "bbl": "3003050040",
+        "doitt_id": "450463",
+        "height_roo": "34.21",
+        "ground_ele": "19",
+        "borough": "BK",
+        "block": "305",
+        "lot": "40",
+        "zip_code": "11201",
+        "address": "141 BALTIC STREET",
+        "owner_name": "ALICE H HIROMURA",
+        "num_floors": "3",
+        "year_built": "1899",
+        "year_alter_1": "0",
+        "year_alter_2": "0",
+        "des_addres": "141 Baltic Street",
+        ...
+    }
 ]
 </code></pre>
 
 ---
 
 ## SoQL Queries
-<a href="https://data.cityofnewyork.us/resource/tg4x-b46p.json?$select=eventid,category, subcategoryname,borough&$where=startdatetime >='2019-01-01' AND borough ='Queens'"><code>https://data.cityofnewyork.us/resource/tg4x-b46p.json?<span class="toy-store-blue">$WHERE</span>=<span class="golden">startdatetime &ge; '2019-01-01' AND borough ='Queens'</span></code></a>
+<a href="https://data.cityofnewyork.us/resource/x3ar-yjn2.json?$select=bin, style_prim, borough, year_built, address, zip_code&$where=year_built < 1900 AND borough = 'BK'"><code>https://data.cityofnewyork.us/resource/tg4x-b46p.json?<span class="toy-store-blue">$select</span>=<span class="golden">bin, style_prim, borough, year_built, address, zip_code</span>&<span class="toy-store-blue">$where</span>=<span class="golden">year_built < '1900' AND borough ='BK'</span></code></a>
 
 <pre><code data-trim contenteditable class="javascript">
-  [
-    {
-      "eventid": "496377",
-      "category": "Television",
-      "subcategoryname": "Episodic series",
-      "borough": "Queens"
-    },
-    {
-      "eventid": "496675",
-      "category": "Television",
-      "subcategoryname": "Episodic series",
-      "borough": "Queens"
-    },
-    {
-      "eventid": "497090",
-      "category": "Television",
-      "subcategoryname": "Cable-other",
-      "borough": "Queens"
-    },
-    {
-      "eventid": "498138",
-      "category": "Film",
-      "subcategoryname": "Feature",
-      "borough": "Queens"
-    },
-    {
-      "eventid": "505645",
-      "category": "Television",
-      "subcategoryname": "Episodic series",
-      "borough": "Queens"
-    },
-    {
-      "eventid": "507446",
-      "category": "Television",
-      "subcategoryname": "Episodic series",
-      "borough": "Queens"
-    },..., and so on
-  ]
+[
+  {
+      "bin": "3179095",
+      "style_prim": "Colonial Revival with alterations",
+      "borough": "BK",
+      "year_built": "1899",
+      "address": "1704 GLENWOOD ROAD",
+      "zip_code": "11230"
+  },
+  {
+      "bin": "3055294",
+      "style_prim": "Italianate",
+      "borough": "BK",
+      "year_built": "1899",
+      "address": "306 CLINTON AVENUE",
+      "zip_code": "11205"
+  },
+  {
+      "bin": "3018635",
+      "style_prim": "Romanesque Revival",
+      "borough": "BK",
+      "year_built": "1899",
+      "address": "19 ST MARKS AVENUE",
+      "zip_code": "11217"
+  },
+  {
+      "bin": "3003319",
+      "style_prim": "Italianate",
+      "borough": "BK",
+      "year_built": "1899",
+      "address": "141 BALTIC STREET",
+      "zip_code": "11201"
+  },
+  {
+      "bin": "3058779",
+      "style_prim": "Transitional Italianate / neo-Grec",
+      "borough": "BK",
+      "year_built": "1899",
+      "address": "63 SOUTH ELLIOTT PLACE",
+      "zip_code": "11217"
+  }, ...
+]
 </code></pre>
 <small style="padding-top: 5em">For more details see <a href="http://dev.socrata.com">dev.socrata.com</a></small>
 
@@ -448,163 +594,95 @@ from research.amnh.org
 
 ## Aggregating Data
 
-<a href="https://data.cityofnewyork.us/resource/tg4x-b46p.json?$select=borough, count(*) as number_of_permits&$group=borough&$where=startdatetime >='2019-01-01'">
-  <code>https://data.cityofnewyork.us/resource/tg4x-b46p.json?
-    <span class="toy-store-blue">$SELECT</span>=
-    <span class="golden">borough, count(*) as number_of_permits</span>
-    <span class="toy-store-blue">$WHERE</span>=
-    <span class="golden">startdatetime &ge; '2019-01-01'</span>
+<a href="https://data.cityofnewyork.us/resource/x3ar-yjn2.json?$select=borough, count(*) as number_of_landmarks&$group=borough">
+  <code>https://data.cityofnewyork.us/resource/x3ar-yjn2.json?
+    <span class="toy-store-blue">$select</span>=
+    <span class="golden">borough, count(*) as number_of_landmarks</span>
+    <span class="toy-store-blue">$group</span>=
+    <span class="golden">borough</span>
   </code>
 </a>
 
 <pre><code data-trim contenteditable class="javascript">
-  [
-    {
-      "borough": "Brooklyn",
-      "number_of_permits": "2365"
-    },
-      {
-      "borough": "Manhattan",
-      "number_of_permits": "3586"
-    },
-    {
-      "borough": "Queens",
-      "number_of_permits": "1336"
-    },
-    {
-      "borough": "Bronx",
-      "number_of_permits": "246"
-    },
-    {
-      "borough": "Staten Island",
-      "number_of_permits": "170"
-    }
-  ]
+[
+  {
+      "number_of_landmarks": "1"
+  },
+  {
+      "borough": "BK",
+      "number_of_landmarks": "16259"
+  },
+  {
+      "borough": "MN",
+      "number_of_landmarks": "14167"
+  },
+  {
+      "borough": "bk",
+      "number_of_landmarks": "1"
+  },
+  {
+      "borough": "0",
+      "number_of_landmarks": "1"
+  },
+  {
+      "borough": "BX",
+      "number_of_landmarks": "1036"
+  },
+  {
+      "borough": "SI",
+      "number_of_landmarks": "536"
+  },
+  {
+      "borough": "QN",
+      "number_of_landmarks": "4656"
+  }
+]
 </code></pre>
 
 ---
 
 ## Geospatial Queries
-  Individual Landmark and Historic District Dataset 
-  <a target='blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/x3ar-yjn2?$where=within_circle(the_geom,40.662481, -73.969150,1000)'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span>
-  <br />?<span class="toy-store-blue">$where=</span><span style="color:MediumOrchid">within_circle(the_geom,40.662, -73.969,1000)</span></code></a>
+  <a target='blank' style='color:#FFF !important' href="https://data.cityofnewyork.us/resource/x3ar-yjn2.json?$select=bin,year_built,style_prim&$where=within_circle(the_geom,40.712,-74.004,500)"><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span>
+  <br />?<span class="toy-store-blue">$where=</span><span style="color:MediumOrchid">within_circle(the_geom,40.712,-74.004,500)</span></code></a>
 
   <pre><code data-trim contenteditable class="javascript">
-  [{
-    "bin": "3025689",
-    "objectid": "15",
-    "the_geom": {
-      "type": "MultiPolygon",
-      "coordinates": [
-        [
-          [
-            [
-              -73.97605642393026,
-              40.666638336470896
-            ],
-            [
-              -73.97615023072676,
-              40.66652645245729
-            ],
-            [
-              -73.97617037938288,
-              40.666502420964584
-            ],
-            [
-              -73.97617274563603,
-              40.666499599238065
-            ],
-            [
-              -73.97617574306379,
-              40.66650105689349
-            ],
-            [
-              -73.97620225995925,
-              40.666513946962624
-            ],...
-          ]
-        ]
-      ]
-    },
-    "bbl": "3010870032",
-    "doitt_id": "302860",
-    "height_roo": "45.32",
-    "ground_ele": "155",
-    "borough": "BK",
-    "block": "1087",
-    "lot": "32",
-    "zip_code": "11215",
-    "address": "618 6 STREET",
-    "owner_name": "DONALD KNUTSON",
-    "num_floors": "3",
-    "year_built": "1920",
-    "year_alter_1": "0",
-    "year_alter_2": "0",
-    "des_addres": "618 6th Street"
+[
+  {
+      "bin": "1001218",
+      "borough": "MN",
+      "year_built": "1910",
+      "style_prim": "Francois Premier",
+      ...
   },
   {
-    "bin": "3025647",
-    "objectid": "26",
-    "the_geom": {
-      "type": "MultiPolygon",
-      "coordinates": [
-        [
-          [
-            [
-              -73.97542926349496,
-              40.66681862437225
-            ],
-            [
-              -73.97537223783446,
-              40.666791177063786
-            ],
-            [
-              -73.97528024344004,
-              40.66674689878175
-            ],
-            [
-              -73.97532060320022,
-              40.666698279593234
-            ],
-            [
-              -73.97542187598211,
-              40.66674702368282
-            ],
-            [
-              -73.97556113531485,
-              40.66681405082677
-            ],
-            [
-              -73.9755644659575,
-              40.666825976164596
-            ], ...
-          ]
-        ]
-      ]
-    },
-    "bbl": "3010850043",
-    "doitt_id": "348423",
-    "height_roo": "57.05",
-    "ground_ele": "156",
-    "borough": "BK",
-    "block": "1085",
-    "lot": "43",
-    "zip_code": "11215",
-    "address": "104 PROSPECT PARK WEST",
-    "owner_name": "KINDIG, ERINN",
-    "num_floors": "4",
-    "year_built": "1901",
-    "year_alter_1": "0",
-    "year_alter_2": "0",
-    "des_addres": "104 Prospect Park West"
-  }, ...]
+      "bin": "1001380",
+      "borough": "MN",
+      "year_built": "1920",
+      "style_prim": "Vernacular",
+      ...
+  },
+  {
+      "bin": "1001382",
+      "borough": "MN",
+      "year_built": "1900",
+      "style_prim": "Not determined",
+      ...
+  },
+  {
+      "bin": "1001348",
+      "borough": "MN",
+      "year_built": "1900",
+      "style_prim": "Greek Revival",
+      ...
+  }, ...
+]
   </code></pre>
 
 ---
 ## Paging Through Data
 
-<a target='_blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/tg4x-b46p.json?$limit=50&$offset=100'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">tg4x-b46p</span>.<span class="blushing-salmon">json</span>
-<br />?<span class="toy-store-blue">$limit</span>=<span style="color:MediumOrchid">50</span>&<span class="toy-store-blue">$offset</span>=<span style="color:MediumOrchid">100</span></code></a>
+<a target='_blank' style='color:#FFF !important' href='https://data.cityofnewyork.us/resource/x3ar-yjn2.json?$limit=5&$offset=10'><code style=''>https://<span class="greenery">data.cityofnewyork.us</span>/resource/<span class="golden">x3ar-yjn2</span>.<span class="blushing-salmon">json</span>
+<br />?<span class="toy-store-blue">$limit</span>=<span style="color:MediumOrchid">5</span>&<span class="toy-store-blue">$offset</span>=<span style="color:MediumOrchid">10</span></code></a>
 
 ---
 
